@@ -1,0 +1,14 @@
+{
+  "resourceName": "dynamoad0ee4ce",
+  "tableName": "accounts",
+  "partitionKey": {
+    "fieldName": "recordId",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "email",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

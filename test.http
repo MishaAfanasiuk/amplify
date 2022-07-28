@@ -1,0 +1,19 @@
+###
+GET https://mfhjej121e.execute-api.us-east-1.amazonaws.com/dev/accounts/0
+Accept: application/json
+
+###
+GET https://mfhjej121e.execute-api.us-east-1.amazonaws.com/dev/accounts
+Accept: application/json
+
+###
+// The request body is provided in place
+POST https://mfhjej121e.execute-api.us-east-1.amazonaws.com/dev/accounts HTTP/1.1
+Content-Type: application/json
+Cookie: key=first-value
+
+{
+  "firstName": "TestF",
+  "lastName": "TestL",
+  "email": "test@gmail.com"
+}

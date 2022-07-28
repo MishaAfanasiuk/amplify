@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/accounts": {
+      "name": "/accounts",
+      "lambdaFunction": "testtask74d979d3",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

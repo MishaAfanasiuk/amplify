@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "dynamoad0ee4ce": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
